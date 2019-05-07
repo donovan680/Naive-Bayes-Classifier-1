@@ -212,9 +212,9 @@ void runTest(const char *train, const char *test, bool isMAP)
 int main()
 {
 	/* simple on MLE */
-	runTest("datasets/simple-train.txt", "datasets/simple-test.txt", IS_MLE);
+	runTest("datasets/Example_3_Traindata3.csv", "datasets/Example_3_Testdata3.csv", IS_MLE);
 	/* simple on Laplace */
-	runTest("datasets/simple-train.txt", "datasets/simple-test.txt", IS_MAP);
+	runTest("datasets/Example_3_Traindata3.csv", "datasets/Example_3_Testdata3.csv", IS_MAP);
 
 	/* vote on MLE */
 	runTest("datasets/vote-train.txt", "datasets/vote-test.txt", IS_MLE);
